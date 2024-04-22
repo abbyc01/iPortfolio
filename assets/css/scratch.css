@@ -1,0 +1,81 @@
+
+:root {
+    --primary: #F1EBC7;
+    --secondary: #2C2B27;
+    --accent: #029ADD;
+    --green: #BED28B;
+    --orange: #FF8A2B;
+    --rust: #AA2704;
+}
+
+body {
+    background-color: var(--primary);
+    font-family:"Montserrat", sans-serif;
+    color: var(--secondary);
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: var(--orange);
+    height: 100px;
+    text-align: center;
+    z-index: 1;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 2px;
+    border: 2px solid var(--secondary);
+}
+
+header a{
+    text-decoration: none;
+    
+}
+
+.hobbies{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 20px;
+    gap: 10px;
+}
+
+.about-me{
+    background-color: beige;
+    padding: 20px;
+    border: 2px solid var(--secondary);
+    font-size: large;
+}
+
+.image-container img{
+    border: 2px solid var(--secondary)
+}
+
+.tableauPlaceholder{
+    border: 2px solid var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 20px 0;
+    left: 8%;
+}
+
+.video{
+    background-color: #029ADD;
+    border: 2px solid var(--secondary);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 20px;
+    width: 96%;
+    height: 40%;
+    flex-direction: column;
+}
+
+.video iframe{
+    border: 2px solid var(--secondary);
+}
